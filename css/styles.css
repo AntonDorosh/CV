@@ -2,6 +2,13 @@
   padding-left: 20px;
 }
 
+.none-list-style {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #595959;
+}
 
 body {
   width: 1280px;
@@ -13,14 +20,14 @@ body {
 .main {
   display: flex;
   width: 1200px;
-  height: 1320px;
+  height: 1450px;
   margin: 40px;
   background-color: #FFFFFF;
 }
 
 .aside {
   width: 370px;
-  height: 1319px;
+  height: 1450px;
   background-color: #1E2939;
 }
 
@@ -29,24 +36,28 @@ body {
 .photo-container {
   margin-top: 40px;
 }
+
+
 .skills-container {
   margin-top: 50px;
   margin-left: 40px;
 }
 .contacts-container,
-.tech-skills-container {
+.tech-skills-container,
+.soft-skills-container {
   margin-bottom: 50px;
 }
 
-
-
+/* title */
 .contacts-title,
 .tech-skills-title,
-.soft-skills-title {
+.soft-skills-title,
+.interests-title {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.22;
   color: #FFFFFF;
+  letter-spacing: 0.05em;
 }
 
 .contacts-list {
@@ -74,37 +85,33 @@ body {
 
 .tech-skills-title {
 }
-.tech-skills-list > li {
+
+.tech-skills-list > li,
+.soft-skills-list > li,
+.interests-list > li {
   color: #FB6D3A;
   padding-bottom: 10px;
 }
 
-.tech-skills-list > li > span {
+
+.tech-skills-list > li > span,
+.soft-skills-list > li > span,
+.interests-list > li > span {
   color: white;
 }
 
-
-.soft-skills-container {
-}
-.soft-skills-title {
-}
-.soft-skills-list > li {
-  color: #FB6D3A;
-  padding-bottom: 10px;
-}
-
-.soft-skills-list > li > span {
-  color: white;
-}
 
 .main-content {
   height: 1319px;
   width: 829px;
+  
 }
+
 .content-container {
   width: 630px;
-  height: 900px;
-  margin: 102px auto;
+  margin: 50px auto;
+  border: 1px solid #FB6D3A;
+  padding: 10px;
 }
 .about-container {
   width: 400px;
@@ -124,8 +131,13 @@ body {
   color: #595959;
 }
 
-.projects-container {
+.about-container,
+.projects-container,
+.work-container {
+  margin-bottom: 30px;
 }
+
+
 .project-title,
 .work-title,
 .education-title {
@@ -153,10 +165,7 @@ body {
   color: #FB6D3A;
 }
 
-.work-container {
-}
-.work-title {
-}
+
 .work-subtitle,
 .education-subtitle {
   font-weight: 700;
@@ -174,11 +183,18 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #A8A8A8;
+}
 
+.work-list > li {
+  color: #FB6D3A;
+}
+
+.work-list > li > span {
+  color: #595959;
 }
 
 .work-list {
-  padding-left: 20px;
+  padding-left: 18px;
   font-size: 14px;
   line-height: 1.71;
   color: #595959;
