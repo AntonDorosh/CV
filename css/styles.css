@@ -83,9 +83,6 @@ body {
 }
 
 
-.tech-skills-title {
-}
-
 .tech-skills-list > li,
 .soft-skills-list > li,
 .interests-list > li {
@@ -199,10 +196,7 @@ body {
   line-height: 1.71;
   color: #595959;
 }
-.education-container {
-}
-.education-title {
-}
+
 .education-subtitle {
   color: #FB6D3A;
 }
@@ -212,8 +206,7 @@ body {
   line-height: 17px;
   color: #000000;
 }
-.education-text {
-}
+
 
 
 
