@@ -33,7 +33,9 @@ body {
   margin-top: 50px;
   margin-left: 40px;
 }
-.contacts-container {
+.contacts-container,
+.tech-skills-container {
+  margin-bottom: 50px;
 }
 
 
@@ -55,6 +57,10 @@ body {
   color: white;
 }
 
+.contacts-item {
+  margin-bottom: 10px;
+}
+
 .contacts-item > a {
   color: white;
   text-decoration: none;
@@ -65,18 +71,17 @@ body {
   color: #FB6D3A;
 }
 
-.tech-skills-container {
-}
+
 .tech-skills-title {
 }
 .tech-skills-list > li {
   color: #FB6D3A;
+  padding-bottom: 10px;
 }
 
 .tech-skills-list > li > span {
   color: white;
 }
-
 
 
 .soft-skills-container {
@@ -85,6 +90,7 @@ body {
 }
 .soft-skills-list > li {
   color: #FB6D3A;
+  padding-bottom: 10px;
 }
 
 .soft-skills-list > li > span {
