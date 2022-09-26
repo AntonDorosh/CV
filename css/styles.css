@@ -31,12 +31,9 @@ body {
   background-color: #1E2939;
 }
 
-
-
 .photo-container {
   margin-top: 40px;
 }
-
 
 .skills-container {
   margin-top: 50px;
@@ -155,7 +152,6 @@ body {
   text-decoration: none;
   padding-left: 10px;
 }
-
 
 
 .project-list-link:hover {
