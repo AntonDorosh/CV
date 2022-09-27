@@ -39,6 +39,21 @@ body {
   margin-top: 50px;
   margin-left: 40px;
 }
+
+.download-cv-container {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.download-cv__link {
+  text-decoration: none;
+  color: white;
+}
+
+.download-cv__link:hover {
+  color: #FB6D3A;
+}
+
 .contacts-container,
 .tech-skills-container,
 .soft-skills-container {
