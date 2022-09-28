@@ -220,7 +220,98 @@ body {
 
 /* Mobile */
 
-@media and screen 
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .download-cv-container,
+  .tech-skills-container,
+  .soft-skills-container,
+  .interests-container {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    background-color: white;
+  }
+
+  .main {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .photo-container img {
+    width: 95%;
+    margin: 3%;
+  }
+
+  .aside {
+    width: 101%;
+    height: 50%;
+  }
+
+  .skills-container {
+    margin: 0;
+    padding: 4%;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .content-container {
+    width: 98%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    margin: 3%;
+  }
+
+  .about-container {
+    width: 99%;
+    text-align: left;
+    height: auto;
+  }
+
+  .contacts-container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .projects-container {
+    display: none;
+  }
+
+  .work-container,
+  .education-container {
+    font-size: 200%;
+  }
+
+  .work-subtitle,
+  .education-subtitle {
+    width: 99%;
+  }
+
+  .about-text-below {
+    margin-right: 4%;
+    font-size: 110%;
+  }
+
+  .work-text {
+    font-size: 45%;
+  }
+
+  .education-text {
+    font-size: 22%;
+  }
+
+  .work-list {
+    font-size: 50%;
+  }
+}
 
 
 
