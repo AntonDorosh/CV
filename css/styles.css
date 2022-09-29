@@ -118,10 +118,11 @@ body {
 
 .content-container {
   width: 630px;
-  margin: 50px auto;
+  margin: 20px auto;
   border: 1px solid #FB6D3A;
-  padding: 10px;
+  padding: 5px;
 }
+
 .about-container {
   width: 400px;
   height: 230px;
@@ -218,6 +219,10 @@ body {
   color: #000000;
 }
 
+.name-container {
+  display: none;
+}
+
 /* Mobile */
 
 @media only screen 
@@ -311,6 +316,7 @@ and (max-device-width : 568px) {
   .work-list {
     font-size: 50%;
   }
+
 }
 
 
